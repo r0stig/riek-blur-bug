@@ -18,7 +18,7 @@ class App extends Component {
 
     this.handleNameChange = newName => {
       this.setState({
-        name: newName
+        name: newName.text
       })
     }
   }
